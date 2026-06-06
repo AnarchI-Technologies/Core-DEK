@@ -1,0 +1,9 @@
+cluster:
+  nodes: 2
+  transport_port: 9100
+
+scheduler:
+  workers: 2
+
+runtime:
+  heartbeat_interval: 5
