@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lumen-dek"
+version = "0.1.0"
+description = "Distributed Execution Kernel"
+authors = [{name="LumenCore"}]
+
+[tool.setuptools]
+packages = ["cluster", "cli", "dek"]
+
+[project.scripts]
+dek = "cli.main:main"
